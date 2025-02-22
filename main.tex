@@ -1,0 +1,97 @@
+\documentclass[10pt, a4paper]{report}
+%====================== PACKAGES ======================
+
+\usepackage[french]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{setspace}
+\usepackage{abstract}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper, top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\usepackage{subfig}
+%\usepackage{tocloft}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+%====================== CONFIGURATION ======================
+\titleformat{\section}{\LARGE\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\Large\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\Large\bfseries}{\thesubsubsection}{1em}{}
+
+
+
+%====================== INFORMATION ET REGLES ======================
+
+%rajouter les numérotation pour les \paragraphe et \subparagraphe
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+
+\hypersetup{
+pdfauthor = {AYEVA Yaasin},			% Auteurs
+pdftitle = {Rapport de Stage Fixaars, JS Morlu Ghana},	
+pdfsubject = {Stage de fin d'études},
+pdfstartview={FitH},
+pdfcreator = {OverLeaf - TeX Live 2023},% Logiciel qui a crée le document
+pdfproducer = {Yaasiin.dev}
+}
+
+%======================== DEBUT DU DOCUMENT ========================
+
+\begin{document}
+%régler l'espacement entre les lignes
+\newcommand{\HRule}{\rule{\linewidth}{0.8mm}}
+%page de garde
+\input{./title.tex}
+%page blanche
+\newpage
+~
+%ne pas numéroter cette page
+\thispagestyle{empty}
+\newpage
+
+\renewcommand{\abstractname}{Remerciements}
+\input{./abstract.tex}
+\input{./epigraph.tex}
+\tableofcontents
+\thispagestyle{empty}
+\setcounter{page}{0}
+
+\newpage
+
+\renewcommand{\baselinestretch}{1.37}
+%espacement entre les lignes d'un tableau
+\renewcommand{\arraystretch}{2.0}
+
+%====================== INCLUSION DES PARTIES ======================
+
+~
+\thispagestyle{empty}
+%recommencer la numérotation des pages à "1"
+\setcounter{page}{0}
+\newpage
+
+\input{./presentation.tex}
+\input{./annexes.tex}
+
+\newpage
+
+%récupérer les citation avec "/footnotemark"
+\nocite{*}
+
+%choix du style de la biblio
+\bibliographystyle{plain}
+%inclusion de la biblio
+
+%\bibliography{bibliographie.bib}
+%voir wiki pour plus d'information sur la syntaxe des entrées d'une bibliographie
+
+\end{document}
+
