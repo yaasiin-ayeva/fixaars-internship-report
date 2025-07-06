@@ -38,22 +38,14 @@
 					"*.run.xml" // Added Manually
 				],
 				// Edit the following property to change export directory
-<<<<<<< HEAD
 				"latex-workshop.latex.outDir": "./OUTPUT",
-=======
-				"latex-workshop.latex.outDir": "./PDF",
->>>>>>> f5c76b1bab4185d6604bfb632e737257c3413bcd
 				"latex-workshop.latex.autoClean.run": "onBuilt",
 				"latex-workshop.latex.build.forceRecipeUsage": false,
 				"latex-workshop.synctex.afterBuild.enabled": true,
 				"latex-workshop.view.pdf.viewer": "tab",
 				"latex-workshop.latex.clean.subfolder.enabled": true,
 				"latex-workshop.latex.magic.args": [
-<<<<<<< HEAD
 					"-output-directory=OUTPUT", // to change the output directory
-=======
-					"-output-directory=PDF", // to change the output directory
->>>>>>> f5c76b1bab4185d6604bfb632e737257c3413bcd
 					"%DOC%"
 				],
 				// Remove / comment the next 3 lines to remove dark view for pdf
@@ -63,11 +55,7 @@
 				"latex-workshop.view.pdf.color.dark.backgroundColor": "#171717", // For Dark Viewer
 				"editor.formatOnSave": true,
 				"latex-workshop.latex.pdfWatch.delay": 500,
-<<<<<<< HEAD
 				//"latex-workshop.latex.watch.delay": 500, // Deprecated. See here: https://github.com/sanjib-sen/WebLaTex/issues/8
-=======
- 				//"latex-workshop.latex.watch.delay": 500, // Deprecated. See here: https://github.com/sanjib-sen/WebLaTex/issues/8
->>>>>>> f5c76b1bab4185d6604bfb632e737257c3413bcd
 				"latex-workshop.codespaces.portforwarding.openDelay": 20000,
 				"grammarly.files.include": [
 					"**/*.tex"
@@ -89,18 +77,10 @@
 				// Remove the line below if you do not want Live-Collaboration Feature
 				"ms-vsliveshare.vsliveshare",
 				// Uncomment the line below if you do not want LanguageTool Support
-<<<<<<< HEAD
 				"valentjn.vscode-ltex",
-=======
-				// "valentjn.vscode-ltex",
->>>>>>> f5c76b1bab4185d6604bfb632e737257c3413bcd
 				// Remove the line below if you do not want Grammarly
 				"znck.grammarly"
 			]
 		}
 	}
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> f5c76b1bab4185d6604bfb632e737257c3413bcd
