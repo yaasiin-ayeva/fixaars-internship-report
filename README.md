@@ -10,7 +10,7 @@
 </div>
 
 <p align="center">
-  <a href="https://github.com/yaasiin-ayeva/fixaars-internship-report/blob/main/rapport.pdf" target="_blank" rel="noreferrer noopener">
+  <a href="https://github.com/yaasiin-ayeva/fixaars-internship-report/blob/main/main.pdf" target="_blank" rel="noreferrer noopener">
     <img src="https://img.shields.io/badge/View%20Report-PDF-red?style=for-the-badge&logo=adobe-acrobat-reader" alt="View PDF">
   </a>
   <img src="https://img.shields.io/badge/Language-French-blue?style=for-the-badge" alt="Language">
