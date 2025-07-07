@@ -123,7 +123,7 @@ The repository is organized to separate the LaTeX content from the visual assets
 
 ## Acknowledgements
 
-I would like to extend my deepest gratitude to my supervisor, **M. Aliloulaye TCHAOU**, for his guidance and trust throughout this internship. My sincere thanks also go to my family, the staff at **IFNTI-Sokodé**, and the entire team at **JS Morlu Ghana** for their invaluable support, warm welcome, and the enriching learning experience.
+I would like to extend my deepest gratitude to my supervisor, **[M. Aliloulaye TCHAOU](https://www.jsmorlu.com/about-js-morlu-llc/our-team/aliloulaye-tchaou/)**, for his guidance and trust throughout this internship. My sincere thanks also go to my family, the staff at **IFNTI-Sokodé**, and the entire team at **JS Morlu Ghana** for their invaluable support, warm welcome, and the enriching learning experience.
 
 This README's structure was inspired by the [WebLaTex](https://github.com/sanjib-sen/WebLaTex) project.
 
