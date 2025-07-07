@@ -99,7 +99,7 @@ The repository is organized to separate the LaTeX content from the visual assets
 ```
 .
 ├── main.tex              # The main LaTeX file that includes all other parts.
-├── rapport.pdf           # The final, compiled PDF report.
+├── main.pdf           # The final, compiled PDF report.
 ├── bibliographie.bib     # The bibliography file in BibTeX format.
 ├── LICENSE
 ├── README.md
